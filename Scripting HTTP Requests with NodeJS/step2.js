@@ -29,8 +29,7 @@ function gAPH() {
   };
 
   https.get(requestOptions, function (response) {
-  var dataResults = [];
-
+    var dataResults = [];
 
     response.setEncoding('utf8');
 
@@ -42,11 +41,9 @@ function gAPH() {
       console.log('Response stream complete');
       console.log('Chunk Received. Length:', dataResults, '\n');
     });
-
-    // console.log(dataResults);
   });
 
 
 }
 
-console.log(gAPH());
+gAPH();

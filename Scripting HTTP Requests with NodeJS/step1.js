@@ -44,4 +44,4 @@ function gAPHC() {
   });
 }
 
-console.log(gAPHC());
+gAPHC();

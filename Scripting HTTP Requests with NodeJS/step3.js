@@ -42,7 +42,6 @@ function getAndPrintHTML (options) {
       console.log('Chunk Received. Length:', dataResults, '\n');
     });
   });
-
 }
 
 var requestOptions = {
@@ -50,4 +49,4 @@ var requestOptions = {
   path: '/http-examples/step3.html'
 };
 
-console.log(getAndPrintHTML(requestOptions));
+getAndPrintHTML(requestOptions);

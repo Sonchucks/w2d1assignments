@@ -52,7 +52,7 @@ module.exports = function getHTML (options, callback) {
     response.setEncoding('utf8');
 
     response.on('data', function (data) {
-      dataResults.push(data.length);
+      dataResults.push(data);
     });
 
     response.on('end', function () {

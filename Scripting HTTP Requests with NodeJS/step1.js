@@ -20,12 +20,9 @@ matter in this case? If not, in what situations would it matter?
 best way to handle the incoming data? How could we improve upon this?
 */
 
-
-
-// gAPHC = getAndPrintHTMLChunks
 var https = require('https');
 
-
+// gAPHC = getAndPrintHTMLChunks
 function gAPHC() {
 
   var requestOptions = {
